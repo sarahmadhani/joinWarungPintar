@@ -6,7 +6,11 @@
   "scripts": {
     "test": "mkdirp ./reports/screenshots && ./node_modules/.bin/wdio ./wdio.conf.js"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sarahmadhani/joinWarungPintar.git"
+  },
+  "author": "sarah",
   "license": "ISC",
   "dependencies": {
     "@wdio/cli": "^7.11.1"
